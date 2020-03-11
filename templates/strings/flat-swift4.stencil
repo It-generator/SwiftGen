@@ -90,7 +90,6 @@ protocol BundleLocalizableProtocol {
     
     static func localized() -> Bundle
 }
-
 {% else %}
 // No string found
 {% endif %}
